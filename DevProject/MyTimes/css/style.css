@@ -1,0 +1,157 @@
+header{
+	display:flex;
+	align-items: center;
+	font-weight:bold;
+	border-bottom:1px black solid;
+	position:fixed;
+	width:100%;
+	background-color:white;
+	height:80px;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:14px;
+}
+body{
+	font-family:Georgia;
+	font-size:17px;
+	color:black;
+	
+
+}
+
+a{
+	color:black;
+}
+
+.logo{
+	display:flex;
+	flex-grow: 1;
+	align-items:center;
+	color:mediumaquamarine;
+}
+
+nav{
+	display:inline-block;
+	padding:20px 10px;
+
+}
+
+header nav{
+	padding-right: 40px;
+}
+
+h2{
+	font-size:30px;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+/*next*/
+
+.main{
+	width:100%;
+	display:flex;
+	margin:0 auto 78px auto;
+	padding-top:116px;
+	
+}
+
+.large_second{
+	display:flex;
+}
+
+.story{
+	flex-direction:column;
+}
+
+.main-image{
+	color:white;
+	display:flex;
+	font-size:40px;
+	height:300px;
+	align-items: center;
+	background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png)
+}
+
+.large{
+	width:630px;
+}
+.medium{
+	width:300px;
+}
+.small{
+	width:240px;
+}
+
+.image{
+	display:flex;
+	align-items:center;
+	color:white;
+	font-weight:bold;
+	font-size:30px;
+	height:300px;
+}
+
+.earth{
+	background:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png)
+}
+
+.cats{
+	text-align:center;
+	background:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.research{
+	background:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.story p{
+	margin-top:16px;
+}
+
+.small p{
+	display:block;
+	padding:11px 20px;
+	border-bottom:1px solid black;
+	background-color:whitesmoke;
+	font-family:Verdana;
+	font-size:12px;
+	color:dimgray;
+	margin:0;
+}
+
+h3{
+	margin-bottom: 41px;
+	font-size:16px;
+	text-align:center;
+}
+
+
+
+
+footer{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height:325px;
+	background-color:mediumaquamarine;
+	flex-direction:column;
+}
+
+.last{
+	display:inline-block;
+	margin-bottom:20px;
+}
+.last span{
+	padding-right:25px;
+	border-right:2px solid white;
+	font-family:Georgia, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+}
+footer a{
+	padding:20px 10px;
+}
+
+
